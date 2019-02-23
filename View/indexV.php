@@ -17,7 +17,7 @@
         <div id="introName">Paul DUBUIS</div>
         <div id="introDev">Apprenti Developpeur</div>
         <div id="introContent">
-          $age = 21;
+          21 ans
         </div>
       </div>
     </div>
