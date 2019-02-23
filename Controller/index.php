@@ -3,3 +3,5 @@
 
 	include("../View/indexV.php");
 ?>
+
+index controller
