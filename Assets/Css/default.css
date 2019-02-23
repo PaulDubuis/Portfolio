@@ -1,0 +1,91 @@
+html, body {
+  margin: 0;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../Images/background_stripped_blure.png");
+}
+
+@font-face{
+  font-family: "OS-Light";
+  src: url('../Fonts/ostrich-sans-master/OstrichSans-Light.otf');
+}
+@font-face{
+  font-family: "OS-Medium";
+  src: url('../Fonts/ostrich-sans-master/OstrichSans-Medium.otf');
+}
+@font-face{
+  font-family: "OS-Rounded-Medium";
+  src: url('../Fonts/ostrich-sans-master/OstrichSansRounded-Medium.otf');
+}
+@font-face{
+  font-family: "OS-Heavy";
+  src: url('../Fonts/ostrich-sans-master/OstrichSans-Heavy.otf');
+}
+@font-face{
+  font-family: "OS-Black";
+  src: url('../Fonts/ostrich-sans-master/OstrichSans-Black.otf');
+}
+@font-face{
+  font-family: "OS-Bold";
+  src: url('../Fonts/ostrich-sans-master/OstrichSans-Bold.otf');
+}
+
+#bgStyle {
+  position: fixed;
+  width: 75%;
+  height: 80%;
+  padding-left: 5%;
+  padding-top: 5%;
+
+}
+
+#mainContainer {
+  position: absolute;
+  height: 100%;
+  left: 10%;
+  right: 10%;
+}
+
+#title {
+  height: 10%;
+  font-size: 40px;
+  text-align: center;
+  color: white;
+  font-family: Arial;
+}
+
+#intro {
+  position: relative;
+  top: 40%;
+  margin-left: 40%;
+  font-size: 20px;
+  color: white;
+  font-family: calibri;
+  text-align: center;
+}
+
+#introName {
+  position: relative;
+  font-size: 100px;
+  font-family: OS-Black;
+}
+
+#introDev {
+  position: relative;
+  margin-top: -30px;
+  font-size: 53px;
+  font-family: OS-Black;
+}
+
+#introContent {
+  font-family: Consolas;
+}
+
+.containerTitle {
+  color: white;
+  font-size: 20px;
+  font-family: Arial;
+  text-align: center;
+}

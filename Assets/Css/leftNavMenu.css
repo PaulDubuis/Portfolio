@@ -1,0 +1,80 @@
+#leftNavMenuMask {
+  position: fixed;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: .7;
+  display: none;
+}
+
+#leftNavMenuMask:hover {
+  cursor: pointer;
+}
+
+#leftNavMenu {
+  position: fixed;
+  top: 0;
+  left: -10%;
+  width: 10%;
+  height: 100%;
+  background-color: #264059;
+  transition: ease-in-out 1s;
+}
+
+#myName {
+  position: relative;
+  top: 5%;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  font-family: Impact;
+  padding-bottom: 10px;
+  box-shadow: 0px 5px 7px -4px black;
+}
+
+#categories {
+  position: relative;
+  top: 10%;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  font-family: Arial;
+}
+
+#categories ul {
+  padding: 0;
+}
+
+#categories li {
+  display: block;
+  margin-bottom: 30px;
+}
+
+#categories a.menuLink {
+  color: #bbb;
+  font-style: none;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Arial;
+  transition: .3s;
+}
+
+#categories a.menuLink:hover {
+  color: white;
+  text-shadow: 0px 0px 3px white;
+}
+
+#openMenuButton {
+  position: fixed;
+  left: 2%;
+  top: 45%;
+  transform: rotate(90deg);
+  height: 50px;
+}
+
+#openMenuButton:hover {
+  cursor: pointer;
+  filter: brightness();
+}
