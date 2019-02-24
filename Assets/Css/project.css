@@ -1,0 +1,40 @@
+.projectContainer {
+  margin-top: 2%;
+  float: left;
+  width: 50%;
+}
+
+div.subContainer {
+  margin: 2%;
+}
+
+div.projectContainer:hover .glowP a {
+  color: white;
+  font-family: OS-Black;
+  -webkit-animation: neon2 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon2 1.5s ease-in-out infinite alternate;
+  animation: neon2 1.5s ease-in-out infinite alternate;
+}
+
+.projectName {
+  font-size: 30px;
+  font-family: OS-Black !important;
+  color: white;
+}
+
+.projectContent {
+  font-size: 18px;
+  color:grey;
+  font-family: OS-Heavy;
+  text-shadow: 3px 3px 3px black;
+  border-bottom: solid 1px grey;
+  padding-bottom: 5%;
+}
+
+.warning {
+  font-family: OS-Heavy;
+  font-style: italic;
+  font-size: 17px;
+  color: #d55;
+  text-shadow: 3px 3px 5px black;
+}
