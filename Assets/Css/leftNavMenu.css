@@ -68,10 +68,11 @@
 
 #openMenuButton {
   position: fixed;
+  display: block;
+  width: 50px;
   left: 2%;
   top: 45%;
   transform: rotate(90deg);
-  height: 50px;
 }
 
 #openMenuButton:hover {

@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
   /////////////////////////////
-  // Left Menu
+  // Left Menu Panel
   /////////////////////////////
 
   function OpenMenu() {

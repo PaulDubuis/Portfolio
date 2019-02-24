@@ -1,9 +1,10 @@
 .skillContainer {
-  display: block;
+  position: relative;
+  float: left;
   background-color: #777;
   margin-bottom: 5%;
-  padding: 2%;
-  width: 30%;
+  margin: 2%;
+  width: 46%;
 }
 
 .skillBlock {

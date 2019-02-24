@@ -3,28 +3,37 @@
   <head>
     <script type="text/javascript" src="./Assets/JavaScript/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="./Assets/JavaScript/indexJS.js"></script>
+
     <link rel="stylesheet" type="text/css" href="./Assets/Css/default.css">
+    <link rel="stylesheet" type="text/css" href="./Assets/Css/GlowText.css">
+
+    <meta charset="UTF-8">
   </head>
 
 
   <body>
 
-
-    <img id='bgStyle' src="./Assets/Images/bg_dev.png"></img>
+    <!-- Menu on the left -->
+    <div id="mainMenu">
+      <p class="glowP">
+        <a href="./index.html" class="menuLink">Accueil</a>
+        <a href="./Pages/Skill.html" class="menuLink">Competences</a>
+        <a href="./Pages/Project.html" class="menuLink">Projets</a>
+      </p>
+    </div>
 
     <div id="mainContainer">
+      <!-- content -->
       <div id="intro">
-        <div id="introName">Paul DUBUIS</div>
-        <div id="introDev">Apprenti Developpeur</div>
-        <div id="introContent">
-          21 ans
+        <div id="introName">
+          <p class="glowP always">
+            <a href="#" class="not-active">Paul DUBUIS</a>
+          </p>
         </div>
+        <div id="introDev">Apprenti Developpeur</div>
+        <div id="introContent">21 ans</div>
       </div>
     </div>
-    <img id="openMenuButton" src="./Assets/Images/Icons/toggle_menu.png"></img>
-    <?php
-      include("leftNavMenu.php");
-    ?>
   </body>
 
 </html>
