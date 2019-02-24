@@ -51,7 +51,6 @@ html, body {
 }
 
 #title {
-  height: 10%;
   font-size: 250%;
   text-align: center;
   color: white;
@@ -60,10 +59,12 @@ html, body {
 
 #intro {
   position: relative;
-  top: 30%;
-  margin-left: 40%;
-  font-size: 20px;
-  color: white;
+  width: 50%;
+  top: 2%;
+  left: 25%;
+  font-size: 21px;
+  color: #bbb;
+  text-shadow: 4px 4px 5px black;
   font-family: calibri;
   text-align: center;
 }
@@ -83,13 +84,6 @@ html, body {
 
 #introContent {
   font-family: Consolas;
-}
-
-.containerTitle {
-  color: white;
-  font-size: 20px;
-  font-family: Arial;
-  text-align: center;
 }
 
 

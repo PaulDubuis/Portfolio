@@ -4,11 +4,10 @@
 
 
 /* General style for paragraph and links */
-p.glowP {
+.glowP {
   text-align: center;
-  margin: 20px 0 20px 0;
 }
-p.glowP a {
+.glowP a {
   text-decoration: none;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
@@ -17,22 +16,23 @@ p.glowP a {
 
 
 /* Each link has his settings */
-p.glowP:nth-child(1) a {
+.glowP a {
   color: #228DFF;
   font-family: OS-Medium;
 }
-p.glowP:nth-child(1) a:hover {
+.glowP a:hover {
   -webkit-animation: neon2 1.5s ease-in-out infinite alternate;
   -moz-animation: neon2 1.5s ease-in-out infinite alternate;
   animation: neon2 1.5s ease-in-out infinite alternate;
 }
-p.glowP.always a {
-  color: #228DFF;
+
+/* Variantes */
+.glowP.always a {
+  color: white;
   font-family: OS-Black;
   -webkit-animation: neon2 1.5s ease-in-out infinite alternate;
   -moz-animation: neon2 1.5s ease-in-out infinite alternate;
   animation: neon2 1.5s ease-in-out infinite alternate;
-  color: white;
 }
 
 
@@ -64,7 +64,7 @@ p.glowP.always a {
 
 
 /* Must be done after animations */
-p.glowP a:hover {
+.glowP a:hover {
   color: #ffffff;
 }
 

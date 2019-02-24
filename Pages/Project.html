@@ -1,43 +1,84 @@
 <html>
 
   <head>
-    <script type="text/javascript" src="../Assets/JavaScript/jquery-3.3.1.min.js"></script>
-    <script type="text/javascript" src="../Assets/JavaScript/indexJS.js"></script>
+    <script type="text/javascript" src=".../Assets/JavaScript/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src=".../Assets/JavaScript/indexJS.js"></script>
+
     <link rel="stylesheet" type="text/css" href="../Assets/Css/default.css">
+    <link rel="stylesheet" type="text/css" href="../Assets/Css/project.css">
+    <link rel="stylesheet" type="text/css" href="../Assets/Css/GlowText.css">
+
+    <meta charset="UTF-8">
   </head>
 
 
   <body>
 
-    <img id="openMenuButton" src="../Assets/Images/Icons/toggle_menu.png"></img>
+    <!-- Menu on the left -->
+    <div id="mainMenu">
+      <p class="glowP">
+        <a href="../index.html" class="menuLink">Accueil</a>
+        <a href="../Pages/Skill.html" class="menuLink">Competences</a>
+        <a href="../Pages/Project.html" class="menuLink">Projets</a>
+      </p>
+    </div>
 
-    <?php
-      include("leftNavMenu.php");
-    ?>
-
+    <!-- Main container -->
     <div id="mainContainer">
-      <p id="title">
-        Projets
+
+      <p id="title" class="glowP always">
+        <a href="#" class="not-active">Projets</a>
       </p>
+
       <p id="intro">
-        Au cours de mes années scolaires j'ai pu réaliser plusieurs projets.
+        Je suis passionné par la développement en général et encore plus particulièrement pour le développement de jeux et applications sous Unity3d.
       </p>
 
-      <div class="skillContainer">
-        <div class="containerTitle">Bataille Navale</div>
-        J'ai réalisé ce projet en 2ème année de BTS, seul. C'est un jeu 2D de bataille navale développé en C# avec Unity.
-        Il m'a permis de bien me familiariser avec Unity et d'accroître mes conaissances en C#.
+      <!-- BATAILLE NAVALE -->
+      <div class="projectContainer">
+        <div class="subContainer">
+          <div class="glowP">
+            <a href="#" class="projectName not-active">Bataille Navale</a>
+          </div>
+          
+          <!-- content -->
+          <div class="projectContent">
+            <p>
+              J'ai réalisé ce projet seul, en 2ème année de BTS afin de le présenter à mes examens de fin d'année.
+            </p>
+            <p>
+              C'est un jeu 2D de bataille navale sur le thème des pirates.
+              Il a été développé en C# avec Unity.
+            </p>
+            <span class="warning">Un lien sera bientôt disponible pour accéder au jeu</span>
+          </div>
+        </div>
       </div>
-      <div class="skillContainer">
-        <div class="containerTitle">Project One</div>
-        Il s'agit d'un jeu de plateforme en 2D développé sous Unity en C#.
 
-        J'ai pu réaliser la plupart des scripts, l'architecture du jeu, ainsi que des resources audio et les textures du jeu.
+      <!-- PROJECT ONE -->
+      <div class="projectContainer">
+        <div class="subContainer">
+          <div class="glowP">
+            <a href="#" class="projectName not-active">Project One</a>
+          </div>
 
-        Sur ce projet j'ai pu me concentrer sur des fonctionnalités de Unity et apprendre à les utiliser, tel un outil de création de shader, la création de script de shader et plugin de post-processing.
+          <!-- content -->
+          <div class="projectContent">
+            <p>Dans le cadre d'un devoir, en groupe de 5, nous avons créé un jeu de platforme 2D sous Unity en C# sur un thème science-fiction / apocalypse.</p>
+            <p>
+              C'était une très bonne expérience car j'ai pu réaliser tous les éléments faisant partie d'un jeu :
+              Le développement des différentes fonctionnalités, choix de l'architecture du jeu, Créations et modifications de resources audio (musiques et effets sonores), ainsi que la réalisation de l'entièreté des textures et images du jeu.
+            </p>
+            <p>
+              Soucieux de l'esthétique du jeu, je me suis intéressé aux shaders en commençant par utiliser des outils d'élaboration de shaders (PBR graph), puis j'ai fini par en coder moi-même.
+              Je me suis aussi servi de plugins de post-processing.
+            </p>
+            <span class="warning">Un lien sera bientôt disponible pour accéder au jeu</span>
+          </div>
 
+        </div>
       </div>
-      </div>
+
     </div>
   </body>
 
